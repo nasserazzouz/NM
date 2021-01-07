@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/player.css">
+</head>
+<body >
+    <main id="player">
+<header>
+    <img src="img/mu.png" width="30%" alt="">
+    <H2>live radio</H2>
+    <p id="titel_file">radio 1</p>
+</header>
+<div id="content">
+<article id="buttons">
+    <img src="img/b.jpg" id="back">
+<img src="img/s.jpg" id="stop">
+<img src="img/g.jpg" id="next">
+<audio src="mostafa.mp3" id="audio_file"></audio>
+</article>
+    <article id="volume">
+        <h2>صوت</h2>
+        <input type="range" id="range">
+        <h2>سرعة</h2>
+        <input type="range" id="speed" max="200" min="0">
+    </article>
+    <article id="buttons">
+        <button id="button1"></button>
+        <button id="button2"></button>
+        <button id="button3"></button>
+        <button id="button4"></button>
+    </article>
+</div>
+    </main>
+    <script src="script/player.js"></script>
+    <script src="script/volume.js"></script>
+   <script src="script/buttons.js"></script>
+</body>
+</html>
